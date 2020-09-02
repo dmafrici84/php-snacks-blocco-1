@@ -23,7 +23,7 @@
     var_dump($numero);
     echo "<br>";
 
-    if ($nome > 3 && $punto != false && $chiocciola != false && $numero == true) {
+    if ($nome > 3 && $punto !== false && $chiocciola !== false && $numero === true) {
       echo "Accesso Riuscito";
       echo "<br>";
     } else {
